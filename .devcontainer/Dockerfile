@@ -1,33 +1,24 @@
-# Use the official Alpine image
-FROM alpine:latest
+FROM rust:1.81.0
 
-# Set environment variables
-ENV RUSTUP_HOME=/usr/local/rustup \
-    CARGO_HOME=/usr/local/cargo \
-    PATH=/usr/local/cargo/bin:$PATH
+# Install Node.js and npm (needed for SvelteKit)
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
+    apt-get install -y nodejs && \
+    npm install -g pnpm
 
-# Install necessary packages
-RUN apk add --no-cache \
-        bash \
-        curl \
-        gcc \
-        g++ \
-        libc-dev \
-        libstdc++ \
-        make \
-        python3 \
-        nodejs \
-        npm \
-        git
-
-# Install Rust using rustup
-RUN curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain stable
+# Install other dependencies (if needed)
+RUN apt-get update && apt-get install -y \
+    git \
+    build-essential \
+    && apt-get clean
 
 # Verify Rust installation
 RUN rustc --version && cargo --version
 
 # Install Svelte and Vite globally
 RUN npm install -g svelte vite degit yarn
+
+# Install cargo-tree. Handy for debugging the build inside the container.
+RUN cargo install cargo-tree
 
 # Create a working directory
 WORKDIR /app

@@ -1,0 +1,38 @@
+{
+	"name": "Rust",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"rust-lang.rust-analyzer",
+				"ms-azuretools.vscode-docker",
+				"svelte.svelte-vscode",
+				"tamasfe.even-better-toml"
+			]
+		}
+	},
+	"forwardPorts": [
+		8000
+	]
+}
+// {
+// 	"name": "Rust",
+// 	"image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye",
+// 	"customizations": {
+// 		"vscode": {
+// 			"extensions": [
+// 				"dbaeumer.vscode-eslint",
+// 				"rust-lang.rust-analyzer",
+// 				"ms-azuretools.vscode-docker",
+// 				"svelte.svelte-vscode",
+// 				"tamasfe.even-better-toml"
+// 			]
+// 		}
+// 	},
+// 	"forwardPorts": [
+// 		8000
+// 	]
+// }
