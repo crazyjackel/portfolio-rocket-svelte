@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import Page from "$layouts/page.svelte";
+    import Projects from "$components/layout/projects.svelte";
+	import Hero from "$components/layout/hero.svelte";
+</script>
+
+
+<Page class="page">
+    <Hero></Hero>
+    <Projects></Projects>
+</Page>
+
