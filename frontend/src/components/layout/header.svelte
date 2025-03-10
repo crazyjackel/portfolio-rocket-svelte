@@ -34,7 +34,7 @@ header {
     cursor: default;
     z-index: 100;
     margin-bottom: 1em;
-    background: linear-gradient(#283440 90%,#ffffff00);
+    background: linear-gradient(#adb35f 75%,#5b5f1c);
     color: #cccccc;
     font-family: "Source Code Pro", monospace;
     font-weight: 300;
@@ -60,7 +60,7 @@ header h1 a, header h1 span {
     display: inline-block;
     text-decoration: none;
     color: #d0d8d5;
-    text-shadow: 0 0 2px #d0d8d5, 0 0 5px #d0d8d5;
+    text-shadow: 0 0 2px #f0f8b3, 0 0 5px #f0f8b3;
 }
 
 a {

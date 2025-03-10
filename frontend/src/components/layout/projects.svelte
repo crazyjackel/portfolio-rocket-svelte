@@ -3,9 +3,9 @@
 		<div class="workgrid__item workgrid__item--1">
 			<a href="/mono.html">
 				<div class="workgrid__item__container">
-					<div class="workgrid__item__title">mono characters</div>
+					<div class="workgrid__item__title">Trainworks Reloaded</div>
 					<div class="workgrid__item__content">
-						<img src="/2x1.png" alt="mono-characters" />
+						<img src="/2x1.png" alt="Trainworks Reloaded" />
 					</div>
 				</div>
 			</a>
@@ -190,7 +190,7 @@
 	.workgrid {
 		grid-gap: 0.3rem;
 		grid-template-areas:
-			'area-1 area-2'
+			'area-1 area-1'
 			'area-3 area-6'
 			'area-5 area-6'
 			'area-5 area-4'
@@ -200,7 +200,8 @@
 			'area-11 area-10'
 			'area-13 area-12'
 			'area-16 area-16'
-			'area-15 area-17';
+			'area-15 area-17'
+			'area-14 area-2';
 		margin: 0 auto;
 		display: grid;
 	}

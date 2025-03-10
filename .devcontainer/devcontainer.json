@@ -1,7 +1,7 @@
 {
 	"name": "Rust",
 	"build": {
-		"dockerfile": "Dockerfile"
+		"dockerfile": "alpine.Dockerfile"
 	},
 	"customizations": {
 		"vscode": {
