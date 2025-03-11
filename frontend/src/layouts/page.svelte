@@ -9,6 +9,39 @@
 </main>
 
 <style>
+	:root {
+    	/* Background Colors */
+		--background-color: #1a1a1a;         /* Default Dark background */
+		--background-color-light: #2a2a2a;    /* Slightly lighter background */
+		--background-color-dark: #0f0f0f;     /* Ultra-dark for deep contrast */
+		--background-color-alt: #131313;      /* Neutral alternative */
+
+		/* Text Colors */
+		--text-color: #f0f0f0;                /* Soft white text */
+		--text-color-light: #ffffff;           /* Pure white for emphasis */
+		--text-color-dark: #b0b0b0;            /* Subtle muted text */
+		--text-color-alt: #d1d1d1;             /* Neutral alternative */
+
+		/* Accent Colors */
+		--accent-color: #d1a26c;              /* Copper pipe accent */
+		--accent-color-light: #e6c79f;         /* Lighter copper for highlights */
+		--accent-color-dark: #a37445;          /* Deeper copper for shadows */
+		--accent-color-alt: #b78654;           /* Balanced alternative copper */
+
+		/* Highlight Colors */
+		--highlight-color: #e6d7c3;           /* Creamy text highlight */
+		--highlight-color-light: #f8eee6;      /* Brightest cream for standout text */
+		--highlight-color-dark: #cbb8a4;       /* Warmer, subdued highlight */
+		--highlight-color-alt: #d9c4b0;        /* Neutral alternative */
+
+		/* Border Colors */
+		--border-color: #3d3d3d;              /* Standard dark border */
+		--border-color-light: #5a5a5a;         /* Softer border */
+		--border-color-dark: #1e1e1e;          /* Deeper, shadow-like border */
+		--border-color-alt: #282828;           /* Balanced alternative border */
+	}
+
+
 	:global(body){
 		background-color: #0d1620;
 		margin: 0px;

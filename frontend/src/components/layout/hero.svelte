@@ -46,7 +46,7 @@
 		width: 300px;
 		height: 300px;
 		border-radius: 50%;
-		background-color: #bea02f;
+		background-color: var(--accent-color-dark);
 		background-size: cover;
 		background-position: center;
 
@@ -68,14 +68,14 @@
 		margin: 0;
 		font-size: 3rem;
 		font-family: 'Orotund Regular', 'Courier New', Courier, monospace;
-		color: #e3cca2;
+		color: var(--accent-color-light);
 	}
 
 	.hero-content p {
 		margin: 0px 0;
 		padding: 0%;
 		font-size: 1.5rem;
-		color: #f1ebdf;
+		color: var(--text-color-alt);
 		font-family: 'Arial, monospace';
 	}
 </style>

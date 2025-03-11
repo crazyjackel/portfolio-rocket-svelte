@@ -3,11 +3,11 @@
 		<h1 class="title-global"><a href="/">Jackson Levitt</a></h1>
 		<nav>
 			<ul>
-				<li><a href="/2024/about">[About]</a></li>
-				<li><a href="/2024/events">[Blog]</a></li>
+				<li><a href="/">[About]</a></li>
+				<li><a href="/">[Blog]</a></li>
 				<li><a href="https://cottonbureau.com/people/advent-of-code" target="_blank">[Projects]</a></li>
-				<li><a href="/2024/settings">[Books]</a></li>
-				<li><a href="/2024/auth/logout">[Stats]</a></li>
+				<li><a href="/">[Books]</a></li>
+				<li><a href="/">[Stats]</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -18,10 +18,10 @@
 		<nav>
 			<ul>
 				<li><a href="/">[Home]</a></li>
-				<li><a href="/2024/stats">[Resume]</a></li>
-				<li><a href="/2024/support">[Github]</a></li>
-				<li><a href="/2024/sponsors">[LinkedIn]</a></li>
-				<li><a href="/2024/leaderboard">[Random]</a></li>
+				<li><a href="/Resume 2024.pdf">[Resume]</a></li>
+				<li><a href="https://github.com/crazyjackel">[Github]</a></li>
+				<li><a href="https://www.linkedin.com/in/jackson-levitt-0abb66176/">[LinkedIn]</a></li>
+				<li><a href="https://theuselessweb.com/">[Random]</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -34,15 +34,19 @@ header {
     cursor: default;
     z-index: 100;
     margin-bottom: 1em;
-    background: linear-gradient(#adb35f 75%,#5b5f1c);
-    color: #cccccc;
+    background: linear-gradient(var(--background-color-light) 75%, var(--background-color-alt));
+    color: var(--text-color);
     font-family: "Source Code Pro", monospace;
     font-weight: 300;
     font-size: 14pt;
     min-width: 60em;
     padding: 8px;
-    padding-bottom: 12px;
+    padding-bottom: 4px;
     padding-left: 20px;
+    border-image: url("Border.png") 11 repeat;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 11px;
 }
 
 header h1 {
@@ -59,13 +63,13 @@ h1 {
 header h1 a, header h1 span {
     display: inline-block;
     text-decoration: none;
-    color: #d0d8d5;
-    text-shadow: 0 0 2px #f0f8b3, 0 0 5px #f0f8b3;
+    color: var(--text-color);
+    text-shadow: 0 0 2px var(--accent-color), 0 0 5px var(--text-color);
 }
 
 a {
     text-decoration: none;
-    color: #d0d8d5;
+    color: var(--text-color-alt);
     outline: 0;
 }
 

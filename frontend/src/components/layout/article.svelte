@@ -28,38 +28,38 @@
       width: 90%;
       margin: 20px auto;
       padding: 20px;
-      background: linear-gradient(to right, #0295fc, #175c8d, #0295fc) #0295fc; 
+      background: linear-gradient(to right, var(--background-color-light), var(--background-color-dark), var(--background-color-light)) var(--background-color-light); 
       border: 20px solid transparent;
-      border-image: linear-gradient(#255b8d, #0295fc, #255b8d);
+      border-image: linear-gradient(var(--accent-color-dark), var(--accent-color-light), var(--accent-color-dark));
       border-image-slice: 1;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
       box-sizing: border-box;
       text-align: center;
     }
     .article-author{
-      color: #0295fc;
+      color: var(--accent-color-dark);
       font-family: 'Winthorpe Sc', 'Courier New', Courier, monospace;
-      text-shadow: 0.1vw -0.3vh #0d2e43;
+      text-shadow: 0.1vw -0.3vh var(--background-color-dark);
     }
   
     .article-title {
       font-size: 5rem;
       font-family: 'Winthorpe Sc', 'Courier New', Courier, monospace;
-      text-shadow: 0.25vw -0.8vh #0d2e43;
+      text-shadow: 0.25vw -0.8vh var(--background-color-dark);
       text-transform: uppercase;
-      color: #fcfffd;
+      color: var(--text-color);
       margin: 0px;
     }
   
-    .article-content {
+    p {
       font-size: 1.2rem;
-      color: #e5e7e6;
+      color: var(--text-color);
       line-height: 1.6;
     }
   
-    @media (max-width: 600px) {
+    @media (max-width: 750px) {
       .article-title {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
       }
       .article-content {
         font-size: 0.9rem;

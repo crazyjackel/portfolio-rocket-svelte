@@ -1,29 +1,29 @@
 <div class="home-wrapper">
 	<div class="workgrid">
 		<div class="workgrid__item workgrid__item--1">
-			<a href="/mono.html">
+			<a href="/projects/trainworks">
 				<div class="workgrid__item__container">
 					<div class="workgrid__item__title">Trainworks Reloaded</div>
 					<div class="workgrid__item__content">
-						<img src="/2x1.png" alt="Trainworks Reloaded" />
+						<img src="/Trainworks.png" alt="Trainworks Reloaded" />
 					</div>
 				</div>
 			</a>
 		</div>
 		<div class="workgrid__item workgrid__item--2">
-			<a href="/experiments.html">
+			<!-- <a href="/experiments.html"> -->
 				<div class="workgrid__item__container">
-					<div class="workgrid__item__title">experiments</div>
+					<!-- <div class="workgrid__item__title">experiments</div> -->
 					<div class="workgrid__item__content">
-						<img src="/1x1.png" alt="refraction" />
+						<!-- <img src="/1x1.png" alt="refraction" /> -->
 					</div>
 				</div>
-			</a>
+			<!-- </a> -->
 		</div>
 		<div class="workgrid__item workgrid__item--3">
 			<div class="workgrid__item__container">
 				<div class="workgrid__item__content">
-					<img src="/1x1.png" alt="spec icon" />
+					<!-- <img src="/1x1.png" alt="spec icon" /> -->
 				</div>
 			</div>
 		</div>
@@ -31,39 +31,39 @@
 		<div class="workgrid__item workgrid__item--4">
 			<div class="workgrid__item__container">
 				<div class="workgrid__item__content">
-					<img src="/1x1.png" alt="spec icon" />
+					<!-- <img src="/1x1.png" alt="spec icon" /> -->
 				</div>
 			</div>
 		</div>
 
 		<div class="workgrid__item workgrid__item--5">
-			<a href="/experiments.html">
+			<!-- <a href="/experiments.html"> -->
 				<div class="workgrid__item__container">
-					<div class="workgrid__item__title">fabric wallpaper</div>
+					<!-- <div class="workgrid__item__title">fabric wallpaper</div> -->
 					<div class="workgrid__item__content">
-						<img src="/1x2.png" alt="hand-crafted wallpapers" />
+						<!-- <img src="/1x2.png" alt="hand-crafted wallpapers" /> -->
 					</div>
 				</div>
-			</a>
+			<!-- </a> -->
 		</div>
 
 		<div class="workgrid__item workgrid__item--6">
-			<a href="/lens.html">
+			<!-- <a href="/lens.html"> -->
 				<div class="workgrid__item__container">
-					<div class="workgrid__item__title">google lens</div>
+					<!-- <div class="workgrid__item__title">google lens</div> -->
 					<div class="workgrid__item__content">
-						<img src="/1x2.png" alt="google lens" />
+						<!-- <img src="/1x2.png" alt="google lens" /> -->
 					</div>
 				</div>
-			</a>
+			<!-- </a> -->
 		</div>
 
 		<div class="workgrid__item workgrid__item--7">
 			<a href="/bttf.html">
 				<div class="workgrid__item__container">
-					<div class="workgrid__item__title">Time Experiment</div>
+					<div class="workgrid__item__title">Asset Importer RS</div>
 					<div class="workgrid__item__content">
-						<img src="/1x1.png" alt="spec icon" />
+						<img src="AssetImporter.png" alt="asset-importer" />
 					</div>
 				</div>
 			</a>
@@ -73,33 +73,32 @@
 			<a href="/mono.html">
 				<div class="workgrid__item__container">
 					<div class="workgrid__item__title">
-						mono studio<br />
-						brand design
+						My Projects
 					</div>
 					<div class="workgrid__item__content">
-						<img src="/2x1.png" alt="mono-characters" />
+						<img src="Projects.png" alt="project-page" />
 					</div>
 				</div>
 			</a>
 		</div>
 
 		<div class="workgrid__item workgrid__item--9">
-			<a href="/nga.html">
+			<!-- <a href="/nga.html"> -->
 				<div class="workgrid__item__container">
 					<div class="workgrid__item__title">
 						next generation<br />assistant
 					</div>
 					<div class="workgrid__item__content">
-						<img src="/1x1.png" alt="spec icon" />
+						<!-- <img src="/1x1.png" alt="spec icon" /> -->
 					</div>
 				</div>
-			</a>
+			<!-- </a> -->
 		</div>
 
 		<div class="workgrid__item workgrid__item--10">
 			<div class="workgrid__item__container">
 				<div class="workgrid__item__content">
-					<img src="/1x1.png" alt="spec icon" />
+					<!-- <img src="/1x1.png" alt="spec icon" /> -->
 				</div>
 			</div>
 		</div>
@@ -107,7 +106,7 @@
 		<div class="workgrid__item workgrid__item--11">
 			<div class="workgrid__item__container">
 				<div class="workgrid__item__content">
-					<img src="/1x1.png" alt="spec icon" />
+					<!-- <img src="/1x1.png" alt="spec icon" /> -->
 				</div>
 			</div>
 		</div>
@@ -115,65 +114,65 @@
 		<div class="workgrid__item workgrid__item--12">
 			<div class="workgrid__item__container">
 				<div class="workgrid__item__content">
-					<img src="/1x1.png" alt="spec icon" />
+					<!-- <img src="/1x1.png" alt="spec icon" /> -->
 				</div>
 			</div>
 		</div>
 
 		<div class="workgrid__item workgrid__item--13">
-			<a href="/mindful.html">
+			<!-- <a href="/mindful.html"> -->
 				<div class="workgrid__item__container">
 					<div class="workgrid__item__title">mindful editor</div>
 					<div class="workgrid__item__content">
-						<img src="/1x1.png" alt="spec icon" />
+						<!-- <img src="/1x1.png" alt="spec icon" /> -->
 					</div>
 				</div>
-			</a>
+			<!-- </a> -->
 		</div>
 
 		<div class="workgrid__item workgrid__item--14">
 			<div class="workgrid__item__container">
 				<div class="workgrid__item__content">
-					<img src="/1x1.png" alt="spec icon" />
+					<!-- <img src="/1x1.png" alt="spec icon" /> -->
 				</div>
 			</div>
 		</div>
 
 		<div class="workgrid__item workgrid__item--15">
-			<a href="javascript:void(0)">
+			<!-- <a href="javascript:void(0)"> -->
 				<div class="workgrid__item__container">
 					<div class="workgrid__item__title">
 						google watch<br />concept (soon)
 					</div>
 					<div class="workgrid__item__content">
-						<img src="/1x1.png" alt="spec icon" />
+						<!-- <img src="/1x1.png" alt="spec icon" /> -->
 					</div>
 				</div>
-			</a>
+			<!-- </a> -->
 		</div>
 
 		<div class="workgrid__item workgrid__item--16">
-			<a href="javascript:void(0)">
+			<!-- <a href="javascript:void(0)"> -->
 				<div class="workgrid__item__container">
-					<div class="workgrid__item__title">ai expression (coming soon)</div>
+					<!-- <div class="workgrid__item__title">ai expression (coming soon)</div> -->
 					<div class="workgrid__item__content">
-						<img src="/2x1.png" alt="mono-characters" />
+						<!-- <img src="/2x1.png" alt="mono-characters" /> -->
 					</div>
 				</div>
-			</a>
+			<!-- </a> -->
 		</div>
 
 		<div class="workgrid__item workgrid__item--17">
-			<a href="/homehub.html">
+			<!-- <a href="/homehub.html"> -->
 				<div class="workgrid__item__container">
 					<div class="workgrid__item__title">
 						google<br />home hub
 					</div>
 					<div class="workgrid__item__content">
-						<img src="/1x1.png" alt="spec icon" />
+						<!-- <img src="/1x1.png" alt="spec icon" /> -->
 					</div>
 				</div>
-			</a>
+			<!-- </a> -->
 		</div>
 	</div>
 </div>
@@ -185,18 +184,28 @@
 
 	.home-wrapper {
 		transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+		border-image: url("Border.png") 11 repeat;
+		border-style: solid;
+		border-width: 0px;
+		border-top-width: 11px;
+		border-bottom-width: 11px;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		padding-left: 2%;
+		padding-right: 2%;
+		background: linear-gradient(var(--background-color-alt), var(--background-color-light), var(--background-color-alt));
 	}
 
 	.workgrid {
 		grid-gap: 0.3rem;
 		grid-template-areas:
+			'area-8 area-8'
+			'area-8 area-8'
 			'area-1 area-1'
 			'area-3 area-6'
 			'area-5 area-6'
 			'area-5 area-4'
 			'area-7 area-9'
-			'area-8 area-8'
-			'area-8 area-8'
 			'area-11 area-10'
 			'area-13 area-12'
 			'area-16 area-16'
@@ -212,6 +221,10 @@
 		border-radius: 4px;
 		position: relative;
 		overflow: hidden;
+		border-image: url("Border2.png") 9 repeat;
+		border-style: solid;
+		border-width: 11px;
+		background-color: var(--background-color-light);
 		-webkit-mask-image: -webkit-radial-gradient(#fff, #000);
 	}
 
@@ -223,6 +236,9 @@
 
 	.workgrid__item {
 		padding-bottom: 80%;
+	}
+	.workgrid__item:nth-child(1){
+		padding-bottom: 40%;
 	}
 	.workgrid__item:nth-child(6),
 	.workgrid__item:nth-child(5) {
@@ -296,17 +312,19 @@
 	.workgrid__item img {
 		max-width: none;
 		width: 100%;
+		height: 100%;
+		image-rendering: crisp-edges;
 	}
 
 	@media (min-width: 48em) {
 		.workgrid {
 			grid-gap: 0.3rem;
 			grid-template-areas:
+				'area-11 area-8 area-8 area-13'
+				'area-10 area-8 area-8 area-14'
 				'area-1 area-1 area-2 area-3'
 				'area-5 area-9 area-6 area-7'
 				'area-5 area-4 area-6 area-12'
-				'area-11 area-8 area-8 area-13'
-				'area-10 area-8 area-8 area-14'
 				'area-15 area-16 area-16 area-17';
 			margin: 0 auto;
 			display: grid;
