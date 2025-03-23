@@ -1,16 +1,23 @@
-<div class="home-wrapper">
+<script lang="ts">
+    import { base } from '$app/paths';
+	
+    export let border_image = `url('${base}/Border.png') 9 repeat`;
+    export let border_image_2 = `url('${base}/Border2.png') 9 repeat`;
+</script>
+
+<div class="home-wrapper" style:border-image="{border_image}">
 	<div class="workgrid">
-		<div class="workgrid__item workgrid__item--1">
-			<a href="/projects/trainworks">
+		<div class="workgrid__item workgrid__item--1" style:border-image="{border_image_2}">
+			<a href="{base}/projects/trainworks">
 				<div class="workgrid__item__container">
 					<div class="workgrid__item__title">Trainworks Reloaded</div>
 					<div class="workgrid__item__content">
-						<img src="/Trainworks.png" alt="Trainworks Reloaded" />
+						<img src="{base}/Trainworks.png" alt="Trainworks Reloaded" />
 					</div>
 				</div>
 			</a>
 		</div>
-		<div class="workgrid__item workgrid__item--2">
+		<div class="workgrid__item workgrid__item--2" style:border-image="{border_image_2}">
 			<!-- <a href="/experiments.html"> -->
 				<div class="workgrid__item__container">
 					<!-- <div class="workgrid__item__title">experiments</div> -->
@@ -20,7 +27,7 @@
 				</div>
 			<!-- </a> -->
 		</div>
-		<div class="workgrid__item workgrid__item--3">
+		<div class="workgrid__item workgrid__item--3" style:border-image="{border_image_2}">
 			<div class="workgrid__item__container">
 				<div class="workgrid__item__content">
 					<!-- <img src="/1x1.png" alt="spec icon" /> -->
@@ -28,7 +35,7 @@
 			</div>
 		</div>
 
-		<div class="workgrid__item workgrid__item--4">
+		<div class="workgrid__item workgrid__item--4" style:border-image="{border_image_2}">
 			<div class="workgrid__item__container">
 				<div class="workgrid__item__content">
 					<!-- <img src="/1x1.png" alt="spec icon" /> -->
@@ -36,7 +43,7 @@
 			</div>
 		</div>
 
-		<div class="workgrid__item workgrid__item--5">
+		<div class="workgrid__item workgrid__item--5" style:border-image="{border_image_2}">
 			<!-- <a href="/experiments.html"> -->
 				<div class="workgrid__item__container">
 					<!-- <div class="workgrid__item__title">fabric wallpaper</div> -->
@@ -47,7 +54,7 @@
 			<!-- </a> -->
 		</div>
 
-		<div class="workgrid__item workgrid__item--6">
+		<div class="workgrid__item workgrid__item--6" style:border-image="{border_image_2}">
 			<!-- <a href="/lens.html"> -->
 				<div class="workgrid__item__container">
 					<!-- <div class="workgrid__item__title">google lens</div> -->
@@ -58,31 +65,31 @@
 			<!-- </a> -->
 		</div>
 
-		<div class="workgrid__item workgrid__item--7">
-			<a href="/bttf.html">
+		<div class="workgrid__item workgrid__item--7" style:border-image="{border_image_2}">
+			<a href="{base}/">
 				<div class="workgrid__item__container">
 					<div class="workgrid__item__title">Asset Importer RS</div>
 					<div class="workgrid__item__content">
-						<img src="AssetImporter.png" alt="asset-importer" />
+						<img src="{base}/AssetImporter.png" alt="asset-importer" />
 					</div>
 				</div>
 			</a>
 		</div>
 
-		<div class="workgrid__item workgrid__item--8">
-			<a href="/mono.html">
+		<div class="workgrid__item workgrid__item--8" style:border-image="{border_image_2}">
+			<a href="{base}/">
 				<div class="workgrid__item__container">
 					<div class="workgrid__item__title">
 						My Projects
 					</div>
 					<div class="workgrid__item__content">
-						<img src="Projects.png" alt="project-page" />
+						<img src="{base}/Projects.png" alt="project-page" />
 					</div>
 				</div>
 			</a>
 		</div>
 
-		<div class="workgrid__item workgrid__item--9">
+		<div class="workgrid__item workgrid__item--9" style:border-image="{border_image_2}">
 			<!-- <a href="/nga.html"> -->
 				<div class="workgrid__item__container">
 					<div class="workgrid__item__title">
@@ -95,7 +102,7 @@
 			<!-- </a> -->
 		</div>
 
-		<div class="workgrid__item workgrid__item--10">
+		<div class="workgrid__item workgrid__item--10" style:border-image="{border_image_2}">
 			<div class="workgrid__item__container">
 				<div class="workgrid__item__content">
 					<!-- <img src="/1x1.png" alt="spec icon" /> -->
@@ -103,7 +110,7 @@
 			</div>
 		</div>
 
-		<div class="workgrid__item workgrid__item--11">
+		<div class="workgrid__item workgrid__item--11" style:border-image="{border_image_2}">
 			<div class="workgrid__item__container">
 				<div class="workgrid__item__content">
 					<!-- <img src="/1x1.png" alt="spec icon" /> -->
@@ -111,7 +118,7 @@
 			</div>
 		</div>
 
-		<div class="workgrid__item workgrid__item--12">
+		<div class="workgrid__item workgrid__item--12" style:border-image="{border_image_2}">
 			<div class="workgrid__item__container">
 				<div class="workgrid__item__content">
 					<!-- <img src="/1x1.png" alt="spec icon" /> -->
@@ -119,7 +126,7 @@
 			</div>
 		</div>
 
-		<div class="workgrid__item workgrid__item--13">
+		<div class="workgrid__item workgrid__item--13" style:border-image="{border_image_2}">
 			<!-- <a href="/mindful.html"> -->
 				<div class="workgrid__item__container">
 					<div class="workgrid__item__title">mindful editor</div>
@@ -130,7 +137,7 @@
 			<!-- </a> -->
 		</div>
 
-		<div class="workgrid__item workgrid__item--14">
+		<div class="workgrid__item workgrid__item--14" style:border-image="{border_image_2}">
 			<div class="workgrid__item__container">
 				<div class="workgrid__item__content">
 					<!-- <img src="/1x1.png" alt="spec icon" /> -->
@@ -138,7 +145,7 @@
 			</div>
 		</div>
 
-		<div class="workgrid__item workgrid__item--15">
+		<div class="workgrid__item workgrid__item--15" style:border-image="{border_image_2}">
 			<!-- <a href="javascript:void(0)"> -->
 				<div class="workgrid__item__container">
 					<div class="workgrid__item__title">
@@ -151,7 +158,7 @@
 			<!-- </a> -->
 		</div>
 
-		<div class="workgrid__item workgrid__item--16">
+		<div class="workgrid__item workgrid__item--16" style:border-image="{border_image_2}">
 			<!-- <a href="javascript:void(0)"> -->
 				<div class="workgrid__item__container">
 					<!-- <div class="workgrid__item__title">ai expression (coming soon)</div> -->
@@ -162,7 +169,7 @@
 			<!-- </a> -->
 		</div>
 
-		<div class="workgrid__item workgrid__item--17">
+		<div class="workgrid__item workgrid__item--17" style:border-image="{border_image_2}">
 			<!-- <a href="/homehub.html"> -->
 				<div class="workgrid__item__container">
 					<div class="workgrid__item__title">
@@ -184,7 +191,6 @@
 
 	.home-wrapper {
 		transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
-		border-image: url("Border.png") 11 repeat;
 		border-style: solid;
 		border-width: 0px;
 		border-top-width: 11px;
@@ -221,7 +227,6 @@
 		border-radius: 4px;
 		position: relative;
 		overflow: hidden;
-		border-image: url("Border2.png") 9 repeat;
 		border-style: solid;
 		border-width: 11px;
 		background-color: var(--background-color-light);

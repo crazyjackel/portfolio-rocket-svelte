@@ -1,24 +1,28 @@
-<header>
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
+
+<header style="border-image: url('{base}/Border.png') 11 repeat;">
 	<div>
-		<h1 class="title-global"><a href="/">Jackson Levitt</a></h1>
+		<h1 class="title-global"><a href="{base}/">Jackson Levitt</a></h1>
 		<nav>
 			<ul>
-				<li><a href="/">[About]</a></li>
-				<li><a href="/">[Blog]</a></li>
-				<li><a href="https://cottonbureau.com/people/advent-of-code" target="_blank">[Projects]</a></li>
-				<li><a href="/">[Books]</a></li>
-				<li><a href="/">[Stats]</a></li>
+				<li><a href="{base}/">[About]</a></li>
+				<li><a href="{base}/">[Blog]</a></li>
+				<li><a href="{base}/">[Projects]</a></li>
+				<li><a href="{base}/">[Books]</a></li>
+				<li><a href="{base}/">[Stats]</a></li>
 			</ul>
 		</nav>
 	</div>
 	<div>
 		<h1 class="title-event">
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="title-event-wrap">$Τ</span><a href="/">ꝛ@ΤƎ</a><span class="title-event-wrap">𐤂𐍅</span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="title-event-wrap">$Τ</span><a href="{base}/">ꝛ@ΤƎ</a><span class="title-event-wrap">𐤂𐍅</span>
 		</h1>
 		<nav>
 			<ul>
-				<li><a href="/">[Home]</a></li>
-				<li><a href="/Resume 2024.pdf">[Resume]</a></li>
+				<li><a href="{base}/">[Home]</a></li>
+				<li><a href="{base}/Resume 2024.pdf">[Resume]</a></li>
 				<li><a href="https://github.com/crazyjackel">[Github]</a></li>
 				<li><a href="https://www.linkedin.com/in/jackson-levitt-0abb66176/">[LinkedIn]</a></li>
 				<li><a href="https://theuselessweb.com/">[Random]</a></li>
@@ -43,7 +47,6 @@ header {
     padding: 8px;
     padding-bottom: 4px;
     padding-left: 20px;
-    border-image: url("Border.png") 11 repeat;
     border-style: solid;
     border-width: 0px;
     border-bottom-width: 11px;

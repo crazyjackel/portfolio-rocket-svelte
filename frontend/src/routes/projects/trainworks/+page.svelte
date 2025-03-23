@@ -1,17 +1,18 @@
 <script>
 	import Article from '$components/layout/article.svelte';
 	import Page from '$layouts/page.svelte';
+    import { base } from '$app/paths';
 </script>
 
 <Page class="page">
 	<Article title="Trainworks Reloaded">
 		<div slot="image">
-			<img src="/Trainworks.png" alt="trainworks" />
+			<img src="{base}/Trainworks.png" alt="trainworks" style="border-image: url('{base}/Border.png') 11 repeat;" />
 		</div>
 		<div slot="content" class="content">
 			<p class="centered-button">
 				<a
-					href="https://github.com/your-repo/trainworks-reloaded"
+					href="https://github.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded"
 					target="_blank"
 					class="github-button">View on GitHub</a
 				>
@@ -87,7 +88,6 @@
 		color: var(--accent-color-alt);
 	}
 	img {
-		border-image: url('../Border.png') 11 repeat;
 		border-style: solid;
 		border-width: 11px;
 		max-width: 80%;
